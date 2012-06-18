@@ -9,7 +9,9 @@
 		<title>LOL Library</title>
 		
 		<!-- CSS Here -->
+		<link href="css/reset.css" rel="stylesheet" type="text/css" />
 		<link href="css/styles.css" rel="stylesheet" type="text/css" />
+		<link href="css/layout.css" rel="stylesheet" type="text/css" />
 
 	</head>
 
@@ -19,12 +21,14 @@
 
 			<h1 role="heading"><a href="index.html"><abbr title="Library or Librarian">LOL</abbr> Library</a></h1>
 		
-			<a class="lib-button-grey-small nomed" href="#menu" role="button" title="Skip to Navigation">Menu</a>
+			<div class="nomed">
+				<a class="lib-button-small-grey" href="#menu" role="button" title="Skip to Navigation">Menu</a>
+			</div>
 			
 			<form action="#" class="lib-form" method="get" role="form">
 				<div>
-					<input name="q" placeholder="Find books, articles, videos, and more!" type="text" />
-					<input name="submit" type="submit" value="Find It" />
+					<input name="q" placeholder="Find books, articles, and more!" type="text" />
+					<input class="lib-button-small" name="submit" type="submit" value="Find It" />
 				</div>
 			</form>
 			
@@ -41,13 +45,12 @@
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
 				
 				<ul role="navigation">
-					<li><a href="#">Find articles</a></li>
-					<li><a href="#">Find books</a></li>
+					<li><a href="#">Find libraries</a></li>
 					<li><a href="#">Find librarians</a></li>
-					<li><a href="#">Find something to wear</a></li>
+					<li><a href="#">Find libraries <strong>AND</strong> librarians</a> <span class="new">New</span></li>
 				</ul>
 				
-				<p><a href="#">See all our tools</a> &raquo;</p>
+				<p class="more"><a href="#">See all our tools</a> &raquo;</p>
 				
 			</section>
 			
@@ -56,8 +59,10 @@
 				<h2><abbr title="Library or Librarian">LOL</abbr> Events</h2>
 				
 				<div class="slidewrap" role="img">
-					
+					<img src="img/slide1.jpg" alt="A thorough description of what is on the slide" />
 				</div>
+				
+				<p class="more"><a href="#">See More Events</a> &raquo;</p>
 				
 			</section>
 			
@@ -65,12 +70,55 @@
 				
 				<h2><abbr title="Library or Librarian">LOL</abbr> News</h2>
 				
+				<div class="news-section">
+								
+					<time datetime="2012-06-21">June 21, 2012</time>
+				
+					<h3>LOL Dress Code</h3>
+				
+					<p>The LOL Library has been forced by recent events to enforce a dress code. Patrons must wear both shoes <i>and</i> shirts to enter the library, although clown outfits, including oversize shoes that squeak when the wearer takes a step, are still frowned upon.</p>
+				
+				</div>
+				
+				 <div class="news-section">
+					
+					<time datetime="2012-06-14">June 14, 2012</time>
+					<h3>LOL Sewage Leak</h3>
+
+					<p>Sewage has leaked all over the LOL Library, soiling many of our LOL collections in the basement. Asked for comment, Rutherford Haggis, the director of the LOL Library, said simply, "Sewage is no match for LOL."</p>
+
+				</div>
+				
+				<p class="more"><a href="#">See More News</a> &raquo;</p>
+				
 			</section>
 			
 			<section id="exhibits">
 				
 				<h2><abbr title="Library or Librarian">LOL</abbr> Exhibits</h2>
 				
+				<div class="exhibit-section">
+				
+					<img src="img/sneeze.jpg" alt="Public Domain Image of a woman sneezing from http://www.publicdomainpictures.net/view-image.php?image=15991" />
+					
+					<h3>Stuffy <abbr title="Library or Librarian">LOL</abbr>s</h3>
+					
+					<p>Many Libraries and librarians suffer from stuffiness. The former might have a clogged filter in their HVAC, while the latter are susceptible to hayfever, allergies, or the common cold. The LOL Library is proud to showcase our collection of stuffy library and librarian memorabilia, including Melvil Dewey's soiled handkerchief and Ranganathan's EpiPen.</p>
+					
+				</div>
+				
+				<div class="exhibit-section">
+					
+				<img src="img/quiet.jpg" alt="A thorough description of the image" />
+
+					<h3>Quiet <abbr title="Library or Librarian">LOL</abbr>s</h3>
+
+					<p>Librarians have been yelling to anyone who will listen that they don't shush anymore. But the LOL Library has artifacts that highlight the history of LOL shushing. Come see Nancy Pearl's "Shut it" button and Charles Cutter's medical note from straining his neck due to "excessive shushing."</p>
+					
+				</div>
+				
+					<p class="more"><a href="#">See More Exhibits</a> &raquo;</p>
+					
 			</section>
 			
 		</div><!-- End #content -->
@@ -78,8 +126,9 @@
 		<nav role="navigation">
 			<ol>
 				<li><a href="#">Find <abbr title="Library or Librarian">LOL</abbr>s</a></li>
-				<li><a href="#">bar</a></li>
-				<li><a href="#">spaz</a></li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Events</a></li>
+				<li><a href="#">Exhibits</a></li>
 				<li><a href="#">About <abbr title="Library or Librarian">LOL</abbr> Library</a></li>
 			</ol>
 		</nav>

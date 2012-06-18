@@ -1,0 +1,152 @@
+
+/* Layout Styles Only */
+
+/* Screen widths below 33.75ems */
+
+img {
+	max-width: 100%;
+}
+
+h1 { 
+	float: left;
+	padding-left: 2%;
+	width: 60%; }
+	
+header .nomed {
+	float: right;
+	margin: .5em .5em 0 0;
+}
+
+header form {
+	clear: left;
+}
+
+header form input[type="submit"] {
+	width: 100%;
+	margin: .5em auto;
+}
+
+#content {
+width: 98%;
+padding: 1%;
+margin: auto;
+}
+
+footer { clear: both;}
+
+footer p, #footer-bottom { width: 98%; padding: 1%;}
+
+nav[role="navigation"] ol li {
+	padding: .75em 0;
+	text-align: center;
+}
+
+/* Screen widths at 33.75em and up */
+
+@media screen and (min-width: 33.75em) {
+	
+body {
+	display: table;
+	caption-side: top; }
+
+.nomed {
+	display: none; }
+	
+header { height: 6em;
+	margin-top: -2.6em;}
+	
+h1 {
+	width: 31%; /* 2% left padding + 31% = 33% */
+}
+	
+header form {
+	clear: none;
+	float: left;
+	width: 66%;
+}
+
+.lib-form div {
+	width: 98%;
+	padding: 1%;
+	background: #fff;
+	margin-top: .5em;
+}
+
+.lib-form input[type="text"] {
+	width: 66%;
+	display: inline-block;
+}
+
+header form input[type="submit"] {
+	width: 28%;
+	margin: 0;
+	float: right;
+}
+
+#content, #hours {
+	clear: left;
+}
+
+#events {
+clear: both;
+}
+
+#research-tools p {
+	float: left;
+	width: 66%;
+}
+
+#research-tools ul {
+	float: left;
+	width: 30%;
+	padding-left: 3%;
+}
+
+p.more { 
+	clear: left;}
+
+nav[role="navigation"] { 
+	/* This awesome tip from Raphaël Goetter via Jeremy Keith, http://adactio.com/journal/4780/ */
+    display: table-caption;
+position: relative;
+top: 6em;
+}
+
+nav[role="navigation"] ol {
+    display: table-row;
+}
+nav[role="navigation"] ol li {
+    display: table-cell;}
+}
+
+/* Screen widths at 33.75em and up */
+
+@media screen and (min-width: 43.75em) {
+	
+#research-tools {
+	float: right;
+	width: 33%;
+}
+
+#research-tools p, #research-tools ul {
+	float: none;
+	width: 100%;
+}
+
+#events {
+	float: right;
+	width: 66%;
+}
+
+#news {
+	clear: right;
+	float:right;
+	width: 33%; }
+	
+#exhibits {
+	float: right;
+	width: 66%;
+}
+	
+}
+
