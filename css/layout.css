@@ -11,6 +11,7 @@ img {
 
 h1 { 
 	float: left;
+	margin-bottom: 1em;
 	padding-left: 2%;
 	width: 60%; }
 	
@@ -166,19 +167,19 @@ h1 a abbr {
 	
 #exhibits .exhibit-section {
 	float: left;
-	width: 31%;
+	width: 31.4%;
 	margin: 0 1%; }
 
 #events {
 	clear: none;
-	width: 65%;
+	width: 66%;
 	float: right;
 }
 
 .slidewrap {
-	width: 49%;
+	width: 47%;
 	float: left;
-	margin-right: 1%; }
+	margin: 0 1.5%; }
 
 header form {
 	float: right;
