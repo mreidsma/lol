@@ -1,11 +1,13 @@
+/* LOL Library Styles */
+/* 2012 by Matthew Reidsma */
+/* reidsmam@gvsu.edu :: @mreidsma */
 
 /* Layout Styles Only */
 
 /* Screen widths below 33.75ems */
 
 img {
-	max-width: 100%;
-}
+	max-width: 100%; }
 
 h1 { 
 	float: left;
@@ -14,32 +16,30 @@ h1 {
 	
 header .nomed {
 	float: right;
-	margin: .5em .5em 0 0;
-}
+	margin: .5em .5em 0 0; }
 
 header form {
-	clear: left;
-}
+	clear: both }
 
 header form input[type="submit"] {
 	width: 100%;
-	margin: .5em auto;
-}
+	margin: .5em auto; }
 
 #content {
-width: 98%;
-padding: 1%;
-margin: auto;
-}
+	width: 98%;
+	padding: 1%;
+	margin: auto; }
 
-footer { clear: both;}
+footer {
+	clear: both;}
 
-footer p, #footer-bottom { width: 98%; padding: 1%;}
+footer p, 
+#footer-bottom { 
+	padding: 1%; }
 
 nav[role="navigation"] ol li {
 	padding: .75em 0;
-	text-align: center;
-}
+	text-align: center; }
 
 /* Screen widths at 33.75em and up */
 
@@ -52,101 +52,166 @@ body {
 .nomed {
 	display: none; }
 	
-header { height: 6em;
+header { 
+	height: 6em;
 	margin-top: -2.6em;}
 	
 h1 {
-	width: 31%; /* 2% left padding + 31% = 33% */
-}
+	width: 31%; }
 	
 header form {
 	clear: none;
 	float: left;
-	width: 66%;
-}
+	width: 66%; }
+	
+h1 a abbr { 
+	display: block; }
 
 .lib-form div {
 	width: 98%;
 	padding: 1%;
 	background: #fff;
-	margin-top: .5em;
-}
+	margin-top: 1em; }
 
 .lib-form input[type="text"] {
 	width: 66%;
-	display: inline-block;
-}
+	display: inline-block; }
 
 header form input[type="submit"] {
 	width: 28%;
 	margin: 0;
-	float: right;
-}
+	float: right; }
 
 #content, #hours {
-	clear: left;
-}
+	clear: both; }
 
 #events {
-clear: both;
-}
-
-#research-tools p {
-	float: left;
-	width: 66%;
-}
-
-#research-tools ul {
-	float: left;
-	width: 30%;
-	padding-left: 3%;
-}
+	clear: both; }
 
 p.more { 
-	clear: left;}
+	clear: both; }
 
 nav[role="navigation"] { 
 	/* This awesome tip from Raphaël Goetter via Jeremy Keith, http://adactio.com/journal/4780/ */
     display: table-caption;
-position: relative;
-top: 6em;
-}
+	position: relative;
+	top: 6em;
+	width: 100%;
+	background: #093A6D; }
 
 nav[role="navigation"] ol {
-    display: table-row;
-}
+    display: table-row; }
+
 nav[role="navigation"] ol li {
-    display: table-cell;}
+    display: table-cell;
+	border-bottom: none;
+	padding: .75em 1em; }
+	
+footer #footer-bottom {
+	text-align: center;
+}
+
 }
 
 /* Screen widths at 33.75em and up */
 
 @media screen and (min-width: 43.75em) {
 	
-#research-tools {
-	float: right;
-	width: 33%;
+h1 {
+	margin-top: .7em; }
+	
+h1 a abbr { 
+	display: inline; }
+	
+#right-column {
+	float:right;
+	margin-top: 2.5em;
+	width: 30%;
+	padding-left: 3%;
 }
 
-#research-tools p, #research-tools ul {
-	float: none;
+#events,
+#news {
 	width: 100%;
 }
-
-#events {
-	float: right;
-	width: 66%;
-}
-
-#news {
-	clear: right;
-	float:right;
-	width: 33%; }
 	
 #exhibits {
 	float: right;
-	width: 66%;
+	margin-top: 2.5em;
+	width: 66%; }
+	
+.more {  
+	float: right; }	
 }
+
+@media screen and (min-width: 64em) {
+	
+#right-column {
+	width: 100%;
+	float: none;
+	padding-left: 0; }
+	
+#news {
+	width: 30%;
+	padding-left: 3%;
+	float: right;
+}
+
+#exhibits {
+	width: 100%;
+	margin-top: 1em;
+	float: none;
+	clear: both;
+}
+	
+#exhibits .exhibit-section {
+	float: left;
+	width: 31%;
+	margin: 0 1%; }
+
+#events {
+	clear: none;
+	width: 65%;
+	float: right;
+}
+
+.slidewrap {
+	width: 49%;
+	float: left;
+	margin-right: 1%; }
+
+header form {
+	float: right;
+	margin-right: 1%;
+	width: 42.66666688em; }
+
+header form input[type="text"] {
+	width: 28em; }
+
+header form input[type="submit"] {
+	width: 10em; }
+	
+}
+
+@media screen and (min-width: 75em) {
+
+body {
+	background: #fff;
+	border-left: 2px solid #ddd;
+	border-right: 2px solid #ddd;
+	margin: 0 auto;
+	width: 75em; }
+	
+html {
+	background: #069; }
+	
+header {
+	width: 100.4%;
+	margin-left: -.2%;
+}
+	
+nav[role="navigation"] {
+	top: 5.9em; }
 	
 }
 
