@@ -1,5 +1,0 @@
-Semantic HTML - layout is an enhancement
-Block-level elements vs. Inline elements
-The box model: Understanding margins and padding
-Source Order: any user, SCREEN READERS (Workarounds for layouts: Jehl's RWD JS pattern)
-Content Strategy
