@@ -15,12 +15,18 @@ h1 {
 	padding-left: 2%;
 	width: 60%; }
 	
+h1 span {
+	display: none; }
+	
 header .nomed {
 	float: right;
 	margin: .5em .5em 0 0; }
 
 header form {
 	clear: both }
+
+.lib-form input[type="text"] {
+	width: 96%; }
 
 header form input[type="submit"] {
 	width: 100%;
@@ -54,8 +60,7 @@ body {
 	display: none; }
 	
 header { 
-	height: 6em;
-	margin-top: -2.6em;}
+	height: 6em; }
 	
 h1 {
 	width: 31%; }
@@ -86,8 +91,12 @@ header form input[type="submit"] {
 #content, #hours {
 	clear: both; }
 
-#events {
+#events, #news {
 	clear: both; }
+	
+#news {
+	margin-top: 3.5em;
+}
 
 p.more { 
 	clear: both; }
@@ -95,7 +104,7 @@ p.more {
 nav[role="navigation"] { 
 	/* This awesome tip from Raphaël Goetter via Jeremy Keith, http://adactio.com/journal/4780/ */
     display: table-caption;
-	position: relative;
+	position: absolute;
 	top: 6em;
 	width: 100%;
 	background: #093A6D; }
@@ -128,13 +137,14 @@ h1 a abbr {
 	float:right;
 	margin-top: 2.5em;
 	width: 30%;
-	padding-left: 3%;
-}
+	padding-left: 3%; }
 
 #events,
 #news {
-	width: 100%;
-}
+	width: 100%; }
+
+#news {
+	margin-top: 0; }
 	
 #exhibits {
 	float: right;
@@ -146,6 +156,15 @@ h1 a abbr {
 }
 
 @media screen and (min-width: 64em) {
+	
+h1 {
+	margin-top: .2em; }
+	
+h1 span { 
+	display: inline; }
+	
+h1 a abbr {
+	display: none; }
 	
 #right-column {
 	width: 100%;
@@ -167,7 +186,7 @@ h1 a abbr {
 	
 #exhibits .exhibit-section {
 	float: left;
-	width: 31.4%;
+	width: 31.3%;
 	margin: 0 1%; }
 
 #events {
@@ -212,7 +231,9 @@ header {
 }
 	
 nav[role="navigation"] {
-	top: 5.9em; }
+	top: 5.9em;
+	width: 75.3em;
+	margin-left: -.15em; }
 	
 }
 

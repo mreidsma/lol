@@ -6,7 +6,7 @@
 	
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>LOL Library</title>
+		<title>Library Or Librarian Library</title>
 		
 		<!-- CSS Here -->
 		<link href="css/reset.css" rel="stylesheet" type="text/css" />
@@ -19,21 +19,20 @@
 	
 		<header role="banner">
 
-			<h1 role="heading"><a href="index.html"><abbr title="Library or Librarian">LOL</abbr> Library</a></h1>
+			<h1 role="heading"><a href="index.html"><abbr title="Library or Librarian">LOL</abbr> <span>Library or Librarian</span> Library</a></h1>
 		
 			<div class="nomed">
 				<a class="lib-button-small-grey" href="#menu" role="button" title="Skip to Navigation">Menu</a>
 			</div>
 			
 			<form action="#" class="lib-form" method="get" role="form">
+					<label for="q">Find books, articles, and more!</label>
 				<div>
 					<input name="q" placeholder="Find books, articles, and more!" type="text" />
 					<input class="lib-button-small" name="submit" type="submit" value="Find It" />
 				</div>
 			</form>
-			
-		<!-- Today's hours will appear here if JS is available -->
-			
+						
 		</header>
 			
 		<div id="content" role="main">	
@@ -165,7 +164,11 @@
 		</footer>
 
 		<!-- Javascript here -->
+		<script src="js/modernizr.js"></script>
+		<script src="js/jquery.min.js"></script>
 		<script src="js/respond.js"></script>
+		<script src="js/scripts.js"></script>
+		
 
 	</body>
 </html>

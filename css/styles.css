@@ -111,21 +111,11 @@ nav[role="navigation"] ol li a {
 }
 
 /* Form styles */
-
-.lib-form label{
-	font-size:.8em;
-	margin: .6em 0;
-	display:inline-block;
-	color: #333;
-	font-weight: bold;
-	text-transform: uppercase;}
 	
 .lib-form input[type="text"] {
-	width:96%;
 	border:1px solid #ddd;
 	font-size:1.1em;
-	padding:.4em 2%;
-	display:block; }
+	padding:.4em; }
 
 /* Footer styles */
 
