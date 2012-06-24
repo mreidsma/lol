@@ -13,24 +13,30 @@ h1 {
 	float: left;
 	margin-bottom: 1em;
 	padding-left: 2%;
-	width: 60%; }
+	width: 64%; }
 	
 h1 span {
 	display: none; }
 	
 header .nomed {
 	float: right;
-	margin: .5em .5em 0 0; }
+	margin: .5em 1% 0 0;
+	text-align: right;
+	width: 32%; }
 
 header form {
-	clear: both }
+	clear: both;
+	padding-bottom: .25em; }
 
 .lib-form input[type="text"] {
+	display: block;
+	margin: 0 1%;
+	padding: .4em .96%;
 	width: 96%; }
 
 header form input[type="submit"] {
-	width: 100%;
-	margin: .5em auto; }
+	width: 98%;
+	margin: .5em 1%; }
 
 #content {
 	width: 98%;
@@ -63,7 +69,7 @@ header {
 	height: 6em; }
 	
 h1 {
-	width: 31%; }
+	width: 30%; }
 	
 header form {
 	clear: none;
@@ -103,7 +109,8 @@ p.more {
 
 nav[role="navigation"] { 
 	/* This awesome tip from Raphaël Goetter via Jeremy Keith, http://adactio.com/journal/4780/ */
-    display: table-caption;
+    
+	display: table-caption;
 	position: absolute;
 	top: 6em;
 	width: 100%;
@@ -195,7 +202,7 @@ h1 a abbr {
 	float: right;
 }
 
-.slidewrap {
+.event-img {
 	width: 47%;
 	float: left;
 	margin: 0 1.5%; }

@@ -17,3 +17,7 @@
 * Responsive Images
 
 * Test the Load Time of your page: http://tools.pingdom.com/fpt/
+
+IMages:
+
+Devices.jpg http://www.flickr.com/photos/brad_frost/6164723945/sizes/l/in/set-72157627712478230/

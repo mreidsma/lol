@@ -38,6 +38,11 @@ if (navigator.userAgent.match(/iPhone/i) || navigator.userAgent.match(/iPad/i)) 
     }, false);
   }
 }
+
+// Fancyness to toggle responsive chunks so you can watch them move around.
+
+$("body").append('<div id="js-toggle"></a>Show Chunks</a></div>');
+
 });
 
 
